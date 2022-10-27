@@ -13,6 +13,6 @@ let i = 0
 
 while (i < inputList.length) {
     console.log(inputList[i])
-    outList.innerHTML = (inputList[i]) 
+    outList.innerHTML =  `<div class="list">${inputList.elementi}</div>`
     i++
 }
